@@ -2,6 +2,8 @@ import logo from '/logo.png'
 
 
 function Header() {
+
+
   return (
     <header>
       <div className="logo-container">
@@ -9,9 +11,9 @@ function Header() {
       </div>
 
       <nav>
-        <a href="/" className='selecionada'>HOME</a>
-        <a href="/produtos" className=''>PRODUTOS</a>
-        <a href="/login" className=''>LOGIN</a>
+        <a href="/" id='link-home'>HOME</a>
+        <a href="/produtos" id='link-produtos'>PRODUTOS</a>
+        <a href="/login" id='link-login'>LOGIN</a>
       </nav>
     </header>
   );

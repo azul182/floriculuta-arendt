@@ -5,7 +5,7 @@ import { Footer } from "../components/footer";
 function Produtos() {
   return (
     <div>
-      <Header/>
+      <Header />
       <main>
         <section className="produtos-section-produtos">
           <h1>Flores e Produtos</h1>

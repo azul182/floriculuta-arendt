@@ -2,7 +2,7 @@
 import { Header } from "../components/header";
 import { Card } from "../components/card";
 import { Footer } from "../components/footer";
-// import home_img from "../../public/home_img.jpg"
+// import home_img from "../../public/home_img.,jpg"
 
 function Home() {
   return (

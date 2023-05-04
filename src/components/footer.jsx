@@ -24,7 +24,7 @@ function Footer(){
             </div>
 
             <div className="credits">
-                <small>Feito por <span>Tigas e Sopa</span></small>
+                <small>©babeariaarendt, Feito por <span>Tigas e Sopa</span></small>
             </div>
 
         </footer>

@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
 }
 
 .logo-container{ 
@@ -181,4 +182,67 @@ footer .credits span{
 .produtos-section-produtos h1{
   margin-bottom: 32px;
   color: white;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 12px 32px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+  background-color: #19e37e;
+  color: white;
+}
+
+form button{
+  width: 30%;
+}
+
+.btn-img img{
+  width: 20px; 
+  margin-right: 20px;
+}
+
+button:hover{
+  background-color: #15c56d;
+}
+
+button:active{
+  
+  background-color: #109452;
+}
+
+.login-section{
+  background-color: #F3C79A;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.login-section h2{
+  margin-bottom: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 40px;
+}
+
+form h1{
+  margin-bottom: 60px;
+}
+
+input[type="email"],input[type="password"],input[type="text"]{
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 12px 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  outline: none;
 }
